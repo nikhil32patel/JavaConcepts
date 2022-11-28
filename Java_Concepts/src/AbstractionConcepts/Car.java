@@ -1,0 +1,17 @@
+package AbstractionConcepts;
+
+public interface Car 
+{
+	// ALL THE METHODS ABSTRACT BY DEFAULT BY NATURE
+	// NO METHOD BODY
+	// ONLY METHOD DECLARATION
+	// USING INTERFACE WE CAN ACHIVE 100% ABSTRACTION.
+	// WE CAN NOT CREATE OBJECT OF INTERFACE
+	// ONLY FINAL AND STATIC VARIABLES 
+	// BY DEFAULTS THEY ARE STATIC AND FINAL
+	
+	public void start();
+	public void stop();
+	public void refule();
+
+}
