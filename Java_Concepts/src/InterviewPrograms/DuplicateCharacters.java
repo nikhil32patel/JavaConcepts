@@ -12,7 +12,7 @@ public class DuplicateCharacters {
 		//Converts given string into character array  
 		char string[] = string1.toCharArray();  
 
-		System.out.println("Duplicate characters in a given string: ");  
+		System.out.println("Duplicate characters in a given string: "+string1+" are :");  
 		//System.out.println("Total length of string"+string1.length());
 		//System.out.println("Total length of string"+string.length);
 		//System.out.println("Character Arra :"+string[19]);

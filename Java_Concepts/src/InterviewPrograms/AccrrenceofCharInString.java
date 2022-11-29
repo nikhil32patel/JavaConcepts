@@ -10,8 +10,10 @@ public class AccrrenceofCharInString {
 		
 		for (int i = 0; i < someString.length(); i++) {
 		    if (someString.charAt(i) == someChar) {
+		    	
 		        count++;
 		    }
+		    System.out.println(someString.charAt(i));
 		}
 		System.out.println("Total Occurrences of Charcter :"+someChar+": is "+count);
 	}

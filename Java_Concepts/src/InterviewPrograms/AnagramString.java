@@ -20,9 +20,9 @@ public class AnagramString {
 			char[] ArrayS1 = s1.toLowerCase().toCharArray();  
 			char[] ArrayS2 = s2.toLowerCase().toCharArray();  
 			
-			//System.out.println("Before Sort of String 1:"+ArrayS1);
+			//System.out.println("Before Sort of String 1:"+ArrayS1.toString());
 			Arrays.sort(ArrayS1);
-			//System.out.println("After Sort of String 1:"+ArrayS1);
+			//System.out.println("After Sort of String 1:"+ArrayS1.toString());
 			
 			//System.out.println("Before Sort of String 2:"+ArrayS2);
 			Arrays.sort(ArrayS2);
@@ -33,16 +33,15 @@ public class AnagramString {
 		}
 
 		if (status){  
-			System.out.println(s1 + " and " + s2 + " are anagrams");  
+			System.out.println(s1 + " and " + s2 + " strings are : ANAGRAMS");  
 		} else {  
-			System.out.println(s1 + " and " + s2 + " are not anagrams");  
+			System.out.println(s1 + " and " + s2 + " strings are : NOT ANAGRAM");  
 		}  
 	}
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		isAnagram("keep", "Peek");
-		isAnagram("listen", "silent");
+		isAnagram("keep", "Peek   ");
+		isAnagram("list en", "silent");
 		isAnagram("hii", "bye");
 		isAnagram("ke", "le");
 		isAnagram("Mother In Law", "Hitler Woman");
