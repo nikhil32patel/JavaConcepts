@@ -35,7 +35,7 @@ public class DuplicateCharCountUsingHashMa {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		DuplicateCharCountUsingHashMa dcf = new DuplicateCharCountUsingHashMa();  
-	        dcf.findIt("India is my country");  
+	        dcf.findIt("India is my country and country is great");  
 
 	}
 
